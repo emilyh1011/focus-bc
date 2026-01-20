@@ -11,6 +11,9 @@ Click on the localhost link. Once mounted on browser, click on focus page.
 - cd server
 - npm start
 
+*Landing page should look like this* 
+![Landing Page](./FocusLandingPage.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

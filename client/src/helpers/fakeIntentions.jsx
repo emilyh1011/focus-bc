@@ -1,0 +1,24 @@
+import haleyNProfile from "../../public/haleyNProfile.png";
+import lisaLProfile from "../../public/lisaLProfile.png";
+import dennisZProfile from "../../public/dennisZProfile.png";
+import aLProfile from "../../public/alexandraLProfile.png";
+import sbProfile from "../../public/sebastienBProfile.png";
+import oliviaJProfile from "../../public/oliviaJProfile.png";
+import willLProfile from "../../public/willLProfile.png";
+import senjunLProfile from "../../public/senjunLProfile.png";
+import eBHProfile from "../../public/emilyBHProfile.png";
+
+export const fakeIntentions = [
+    {intentionId: crypto.randomUUID(), firstName: "Alexandra", lastName: "Lu", universityEmail: "axl@fsu.edu", picture: `${aLProfile}`, university: "Florida State University", major: "Nursing", intention: "6 exams next 2 weeks. No breaks. pharm, and all my nursing classes. Can't catch a break.", kudos:3, kudosFrom: [], done: false, assignment: {courseNumber: "PHARM201", courseName: "Pharmacology", entry: "Pharmacology Final"}},
+    {intentionId: crypto.randomUUID(), firstName: "Dennis", lastName: "Zhan", universityEmail: "dennisz@duke.edu",  picture: `${dennisZProfile}`, university: "Duke University", major: "Math & Economics", intention: "Doing my analysis homework.", kudos:0, kudosFrom: [], done: true, assignment: {courseNumber: "MATH-UA325", courseName: "Analysis", entry: "Problem Set 3"}},
+    {intentionId: crypto.randomUUID(), firstName: "Dennis", lastName: "Zhan", universityEmail: "dennisz@duke.edu",  picture: `${dennisZProfile}`, university: "Duke University", major: "Math & Economics", intention: "Reading a poker stategy book for my next poker club tournament.", kudos:2, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Dennis", lastName: "Zhan", universityEmail: "dennisz@duke.edu",  picture: `${dennisZProfile}`, university: "Duke University", major: "Math & Economics", intention: "Finish Princeton Masters Finance application.", kudos:2, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Lisa", lastName: "Lu", universityEmail: "lcl@wesleyanu.edu", picture: `${lisaLProfile}`,university: "Wesleyan University", major: "Art & Psychology", intention: "Booking my all-around Asia trip. Have to book my flights to China, Japan, and Hong Kong.",kudos:5, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Haley", lastName: "Ngai", universityEmail: "hn@nyu.edu", picture: `${haleyNProfile}`, university: "New York University", major: "Interactive Media Arts", intention: "Looking over my events app google form user research. Need to summarize these findings into actionable designs", kudos:3, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Sebastien", lastName: "Bazizi", universityEmail: "sgb9066@stern.nyu.edu", picture: `${sbProfile}`, university: "New York University", major: "BPE & Finance", intention: "Preparing for my full-time consulting case interviews", kudos:1, kudosFrom: [], done: true, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Sebastien", lastName: "Bazizi", universityEmail: "sgb9066@stern.nyu.edu", picture: `${sbProfile}`, university: "New York University", major: "BPE & Finance", intention: "Send 10 cold emails.", kudos:0, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Will", lastName: "Lynch", universityEmail: "willl@dartmouth.edu", picture: `${willLProfile}`, university: "Dartmouth University", major: "Economics & Native American Studies", intention: "Applying for MBA programs. Can't wait to be a Product Manager afterwards.", kudos:1, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Olivia", lastName: "Jackson", universityEmail: "oerj@nyu.edu", picture: `${oliviaJProfile}`, university: "New York University", major: "Biology", intention: "Studying for my majors organic chemistry. I should've just taken the regular organic chemistry.", kudos:0, kudosFrom: [], done: false, assignment: {courseNumber: "CHEM-UA227", courseName: "Majors Organic Chemistry", entry: "Lab Journal 1"}},
+    {intentionId: crypto.randomUUID(), firstName: "Senjun", lastName: "Lu", universityEmail: "sal@indianau.edu", picture: `${senjunLProfile}`, university: "Indiana University", major: "Accounting & Finance", intention: "Make 5 friends today.", kudos:2, kudosFrom: [], done: false, assignment: null},
+    {intentionId: crypto.randomUUID(), firstName: "Emily", lastName: "Hershey", universityEmail:"ebh@purdueu.edu", picture: `${eBHProfile}`, university: "Purdue University", major: "Computer Science & Data Science", intention: "Master my SQL.", kudos:1, kudosFrom: [], done: false, assignment: null},
+]

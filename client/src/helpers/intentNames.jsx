@@ -1,0 +1,1 @@
+export const intentNames = ["Silent Study", "Collaborative"];
